@@ -44,7 +44,7 @@ const App = () => {
 
   console.log(cart);
   return (
-    <div className="mx-auto w-[100vw] max-w-[415px] pt-10 px-5 ">
+    <div className="mx-auto w-[100vw] max-w-[415px] pt-10 px-5">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
